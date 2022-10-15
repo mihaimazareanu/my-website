@@ -1,0 +1,26 @@
+footer {
+  background: var(--gradient_base);
+  background: linear-gradient(
+    0deg,
+    var(--gradient_start) 0%,
+    var(--gradient_end) 100%
+  );
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  color: var(--yellow);
+}
+
+footer ul li {
+  margin: 0 10px;
+  display: inline;
+}
+
+footer a {
+  text-align: center;
+  color: var(--yellow);
+}
+
+footer i:hover {
+  transform: scale(1.5);
+}

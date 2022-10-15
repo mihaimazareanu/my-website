@@ -1,0 +1,70 @@
+@import "/assets/css-components/cv-styling/reset.css";
+
+@import "/assets/css-components/cv-styling/cv-global.css";
+
+@import "/assets/css-components/cv-styling/big-grid-container.css";
+
+@import "/assets/css-components/cv-styling/profile-photo.css";
+
+@import "/assets/css-components/cv-styling/grid-elements.css";
+
+@import "/assets/css-components/cv-styling/prog-skills.css";
+
+@import "/assets/css-components/cv-styling/styling-mixed-classes.css";
+
+@media screen and (max-width: 1180px) {
+  .big-grid-container {
+    /* background-color: bisque; */
+    grid-template-areas:
+      "cv cv cv"
+      "pi pi ph"
+      "ed ed ed"
+      "we we we"
+      "lang lang lang"
+      "prog prog orga"
+      "soc soc fs";
+  }
+
+  .current-skills {
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .big-grid-container {
+    /* background-color: aqua; */
+    padding: 0 1rem 1rem;
+    grid-template-areas:
+      "cv cv ph"
+      "pi pi pi"
+      "ed ed ed"
+      "we we we"
+      "lang lang lang"
+      "prog prog prog"
+      "orga orga orga"
+      "soc soc soc"
+      "fs fs fs";
+  }
+
+  .cv-title {
+    /* background-color: blueviolet; */
+    /* border: 1px solid black; */
+    font-size: 2rem;
+    height: calc(100% - 1rem);
+    margin-top: 1rem;
+  }
+
+  .profile-photo {
+    /* background-color: brown; */
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+    /* width: calc(100%-5rem); */
+  }
+
+  img {
+    width: 5rem;
+    height: 7rem;
+  }
+}

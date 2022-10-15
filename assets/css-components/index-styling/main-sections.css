@@ -1,0 +1,21 @@
+.hello::after {
+  content: "   👋";
+}
+
+.welcome-text,
+.education,
+.professional-info,
+.coding {
+  width: 70%;
+  margin: 10px auto;
+  border-radius: 10px;
+  border: 2px solid #cfd8f5;
+  background-color: rgba(172, 182, 243, 1);
+  padding: 10px;
+  color: rgba(2, 37, 73, 1);
+}
+
+main a {
+  color: var(--gradient_base);
+  text-decoration: none;
+}

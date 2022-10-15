@@ -6,6 +6,7 @@
   display: grid;
   gap: 1rem;
   grid-template-areas:
+    "cv cv cv"
     "pi pi ph"
     "ed we we"
     "prog we we"

@@ -1,0 +1,13 @@
+@import "assets/css-components/css-reset.css";
+
+@import "assets/css-components/global.css";
+
+@import "assets/css-components/header.css";
+
+@import "assets/css-components/navbar.css";
+
+@import "assets/css-components/main-sections.css";
+
+@import "assets/css-components/footer.css";
+
+@import "assets/css-components/media-queries.css";

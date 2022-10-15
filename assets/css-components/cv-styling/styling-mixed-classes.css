@@ -19,6 +19,7 @@
   padding: 1rem;
 }
 
+img,
 .personal-info,
 .education,
 .working-experience,
@@ -29,4 +30,5 @@
 .rest {
   border: 1px solid black;
   border-radius: 10px;
+  box-shadow: 5px 10px #888;
 }

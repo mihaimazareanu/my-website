@@ -1,3 +1,7 @@
+.cv-title {
+  grid-area: cv;
+}
+
 .personal-info {
   /* background-color: aqua; */
   grid-area: pi;

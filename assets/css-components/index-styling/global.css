@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --yellow: #fdf0d5;
+  --gradient_base: rgb(4, 55, 244);
+  --gradient_start: rgba(4, 55, 244, 1);
+  --gradient_end: rgba(2, 37, 73, 1);
+}
+@font-face {
+  font-family: "MontserratAlternates";
+  src: url("/assets/Fonts/Montserrat/MontserratAlternates-Regular.ttf");
+}
+
+body {
+  background: var(--gradient_base);
+  background: linear-gradient(
+    0deg,
+    var(--gradient_start) 0%,
+    var(--gradient_end) 100%
+  );
+  font-family: "MontserratAlternates", sans-serif;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  line-height: 1.5;
+}

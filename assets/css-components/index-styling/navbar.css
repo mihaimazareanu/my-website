@@ -1,0 +1,36 @@
+.navbar {
+  width: 70%;
+  margin: 10px auto;
+  position: sticky;
+  top: 0;
+  border: 1px solid var(--yellow);
+  border-radius: 10px;
+  background: var(--gradient_end);
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.navbar a {
+  color: var(--yellow);
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: rgba(2, 37, 73, 1);
+}
+
+.navbar li:hover {
+  transform: scale(1.1);
+  font-weight: 900;
+  background: orange;
+}
