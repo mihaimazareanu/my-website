@@ -1,0 +1,48 @@
+@import "/assets/css-components/reset.css";
+
+@import "/assets/css-components/global.css";
+
+@import "/assets/css-components/big-grid-container.css";
+
+@import "/assets/css-components/profile-photo.css";
+
+@import "/assets/css-components/grid-elements.css";
+
+@import "/assets/css-components/prog-skills.css";
+
+@import "/assets/css-components/styling-mixed-classes.css";
+
+/* @media screen and (max-width: 1180px) {
+  table {
+    width: 100%;
+  }
+
+  .education,
+  .working-experience,
+  .languages {
+    /* background-color: bisque; */
+/* width: 100%;
+  }
+
+  .orga-skills,
+  .prog-skills,
+  .social-comp,
+  .rest {
+    width: 100%;
+  }
+
+  .grid-container-top {
+    /* background-color: aqua; */
+/*display: grid;
+    grid-template-areas: "pi ph";
+    gap: 5%;
+    flex-wrap: wrap;
+  }
+  .grid-container-bottom {
+    display: grid;
+    grid-template-areas:
+      "lang orga soc"
+      "prog fs soc";
+    gap: 1rem;
+  }
+} */

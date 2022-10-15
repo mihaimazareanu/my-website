@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "MontserratAlternates";
+  src: url("assets/Fonts/Montserrat/MontserratAlternates-Light.ttf");
+}
+
+body {
+  font-size: 1.2rem;
+  background-color: #f9f5ff;
+}
+
+h1 {
+  /* background-color: blueviolet; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: normal;
+  height: 5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+td {
+  padding-left: 1rem;
+}
+
+tr:nth-child(odd) {
+  /* background-color: #d2e0bf; */
+  /* background-color: #f1f2eb; */
+  background-color: #d8dad3;
+  /* background-color: #d1ccdc; */
+  /* background-color: #e8e5da; */
+}

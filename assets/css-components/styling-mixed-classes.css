@@ -1,0 +1,32 @@
+.personal-info table,
+.education table,
+.working-experience table,
+.languages table {
+  width: 100%;
+  padding-top: 1rem;
+}
+
+.personal-info td:first-of-type,
+.education td:first-of-type,
+.working-experience td:first-of-type,
+.languages td:first-of-type {
+  width: 50%;
+}
+
+.orga-skills p,
+.social-comp p,
+.rest p {
+  padding: 1rem;
+}
+
+.personal-info,
+.education,
+.working-experience,
+.languages,
+.prog-skills,
+.orga-skills,
+.social-comp,
+.rest {
+  border: 1px solid black;
+  border-radius: 10px;
+}

@@ -1,0 +1,34 @@
+.personal-info {
+  /* background-color: aqua; */
+  grid-area: pi;
+}
+
+.education {
+  /* background-color: brown; */
+  grid-area: ed;
+}
+
+.working-experience {
+  /* background-color: chocolate; */
+  grid-area: we;
+}
+
+.languages {
+  /* background-color: darkcyan; */
+  grid-area: lang;
+}
+
+.orga-skills {
+  /* background-color: cornflowerblue; */
+  grid-area: orga;
+}
+
+.social-comp {
+  /* background-color: yellowgreen; */
+  grid-area: soc;
+}
+
+.rest {
+  /* background-color: springgreen; */
+  grid-area: fs;
+}

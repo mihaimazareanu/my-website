@@ -1,0 +1,52 @@
+.prog-skills {
+  /* background-color: hotpink; */
+  grid-area: prog;
+  display: flex;
+  justify-content: space-around;
+}
+
+.current-skills {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.fa-html5,
+.fa-css3,
+.fa-js {
+  transform: scale(3);
+}
+
+.html-div,
+.css-div,
+.js-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.future-skills {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.fa-react,
+.fa-node-js {
+  transform: scale(3);
+}
+
+.react-div,
+.node-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}

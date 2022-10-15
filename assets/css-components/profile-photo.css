@@ -1,0 +1,13 @@
+.profile-photo {
+  /* background-color: chartreuse; */
+  grid-area: ph;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  border-radius: 20%;
+  width: 10rem;
+  height: 12rem;
+}
