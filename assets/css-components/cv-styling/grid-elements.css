@@ -36,3 +36,22 @@
   /* background-color: springgreen; */
   grid-area: fs;
 }
+
+.print {
+  grid-area: pr;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+[type="button"] {
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  border: 1px solid #000;
+}
+
+/* .working-experience__print1,
+.working-experience__print2 {
+  visibility: hidden;
+} */

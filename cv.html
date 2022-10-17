@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="cv.css" />
+    <link rel="stylesheet" href="cv.css" type="text/css" media="screen" />
+    <link
+      rel="stylesheet"
+      href="/assets/css-components/cv-styling/cv-print.css"
+      type="text/css"
+      media="print"
+    />
     <script
       src="https://kit.fontawesome.com/6d931fc6c5.js"
       crossorigin="anonymous"
@@ -14,11 +20,11 @@
   <body>
     <main>
       <div class="big-grid-container">
-        <h1 class="cv-title">Curriculum Vitae</h1>
-        <figure class="profile-photo">
+        <h1 class="cv-title printable">Curriculum Vitae</h1>
+        <figure class="profile-photo printable">
           <img src="/assets/Mihai Mazareanu.jpg" alt="my professional photo" />
         </figure>
-        <section class="personal-info">
+        <section class="personal-info printable">
           <h2>Personal Information</h2>
           <table>
             <tr>
@@ -47,7 +53,7 @@
             </tr>
           </table>
         </section>
-        <section class="education">
+        <section class="education printable">
           <h2>Education</h2>
           <table>
             <tr>
@@ -74,7 +80,8 @@
             </tr>
           </table>
         </section>
-        <section class="working-experience">
+        <section class="working-experience printable">
+          <!-- <div class="working-experience__print1"> -->
           <h2>Working Experience</h2>
           <table>
             <tr>
@@ -115,6 +122,8 @@
               <td></td>
               <td>Acting Operations Manager</td>
             </tr>
+            <!-- </div>
+          <div class="working-experience__print2"> -->
             <tr>
               <td>October 2013 - September 2017</td>
               <td>TRANSA Spedition, Hamburg, Germany</td>
@@ -219,9 +228,10 @@
                 prices with both clients and transport partners
               </td>
             </tr>
+            <!-- </div> -->
           </table>
         </section>
-        <section class="languages">
+        <section class="languages printable">
           <h2>Languages</h2>
           <table>
             <tr>
@@ -238,7 +248,7 @@
             </tr>
           </table>
         </section>
-        <section class="orga-skills">
+        <section class="orga-skills printable">
           <h2>Organisational Skills</h2>
           <p>
             Very good leading skills proven by being Local Committee President
@@ -250,7 +260,7 @@
             logistics area
           </p>
         </section>
-        <section class="prog-skills">
+        <section class="prog-skills printable">
           <div class="current-skills">
             <h2>Programming Skills</h2>
             <div class="html-div">
@@ -278,7 +288,7 @@
             </div>
           </div>
         </section>
-        <section class="social-comp">
+        <section class="social-comp printable">
           <h2>Social Competences</h2>
           <p>
             Teamwork, proven through a lot of projects for the international
@@ -292,10 +302,17 @@
             as a soft skills trainer for AIESEC.
           </p>
         </section>
-        <section class="rest">
+        <section class="rest printable">
           <h2>Further Skills</h2>
           <p>Driver's License Category B</p>
         </section>
+        <div class="print">
+          <input
+            type="button"
+            value="Print"
+            onclick="window.print(); return false"
+          />
+        </div>
       </div>
     </main>
   </body>

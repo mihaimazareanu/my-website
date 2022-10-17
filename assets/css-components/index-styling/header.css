@@ -13,7 +13,6 @@ header {
 
 .german-flag {
   position: absolute;
-  /* transform: scale(0.1); */
   right: 5%;
   top: 10%;
 }

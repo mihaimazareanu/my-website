@@ -1,13 +1,17 @@
-@import "assets/css-components/css-reset.css";
+@import "assets/css-components/cv-styling/reset.css";
 
-@import "assets/css-components/global.css";
+@import "assets/css-components/index-styling/global.css";
 
-@import "assets/css-components/header.css";
+@import "assets/css-components/index-styling/header.css";
 
-@import "assets/css-components/navbar.css";
+@import "assets/css-components/index-styling/navbar.css";
 
-@import "assets/css-components/main-sections.css";
+@import "assets/css-components/index-styling/main-sections.css";
 
-@import "assets/css-components/footer.css";
+@import "assets/css-components/index-styling/footer.css";
 
-@import "assets/css-components/media-queries.css";
+@media screen and (max-width: 600px) {
+  .navbar {
+    width: 95%;
+  }
+}

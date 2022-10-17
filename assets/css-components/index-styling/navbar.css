@@ -33,4 +33,5 @@
   transform: scale(1.1);
   font-weight: 900;
   background: orange;
+  border-radius: 3px;
 }

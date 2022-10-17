@@ -1,15 +1,15 @@
 .big-grid-container {
-  max-width: 100%;
+  /* max-width: 100%; */
   padding: 0 5rem 5rem;
   margin: auto;
   /* background-color: bisque; */
   display: grid;
   gap: 1rem;
   grid-template-areas:
-    "cv cv cv"
-    "pi pi ph"
-    "ed we we"
+    "cv cv pr"
+    "pi ed ph"
+    "lang we we "
     "prog we we"
-    "lang we we"
-    "orga soc fs";
+    "orga we we"
+    "soc soc fs";
 }

@@ -12,11 +12,11 @@
 
 @import "/assets/css-components/cv-styling/styling-mixed-classes.css";
 
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1360px) {
   .big-grid-container {
     /* background-color: bisque; */
     grid-template-areas:
-      "cv cv cv"
+      "cv cv pr"
       "pi pi ph"
       "ed ed ed"
       "we we we"
@@ -28,6 +28,11 @@
   .current-skills {
     margin-bottom: 1rem;
   }
+
+  img {
+    width: 10rem;
+    height: 13.5rem;
+  }
 }
 
 @media screen and (max-width: 760px) {
@@ -35,7 +40,7 @@
     /* background-color: aqua; */
     padding: 0 1rem 1rem;
     grid-template-areas:
-      "cv cv ph"
+      "cv ph pr"
       "pi pi pi"
       "ed ed ed"
       "we we we"
@@ -59,6 +64,7 @@
     /* border: 1px solid black; */
     display: flex;
     justify-content: flex-end;
+    align-items: flex-start;
     margin-top: 1rem;
     /* width: calc(100%-5rem); */
   }
@@ -67,4 +73,10 @@
     width: 5rem;
     height: 7rem;
   }
+}
+
+.print {
+  /* background-color: blue; */
+  justify-content: flex-end;
+  align-items: flex-start;
 }

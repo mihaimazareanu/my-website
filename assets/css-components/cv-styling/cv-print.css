@@ -1,0 +1,285 @@
+/* Start CSS Reset*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+*/
+
+/* html,
+body {
+  height: 100%;
+} */
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+/* End CSS Reset */
+
+@font-face {
+  font-family: "MontserratAlternates";
+  src: url("/assets/Fonts/Montserrat/MontserratAlternates-Light.ttf");
+}
+
+@font-face {
+  font-family: "Open-sans";
+  src: url("/assets/Fonts/Open-sans/OpenSans-Light.ttf");
+}
+
+body {
+  /* font-size: 1rem; */
+  /* line-height: 1.3rem; */
+  word-spacing: 0.2rem;
+  /* background-color: #f9f5ff; */
+  /* background-color: #e8e5da; */
+  background-color: #fff;
+  color: #000;
+  font-family: Open-sans;
+}
+
+h1 {
+  /* background-color: blueviolet; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: normal;
+  height: 5rem;
+}
+
+h2 {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+td {
+  padding-left: 1rem;
+}
+
+tr:nth-child(odd) {
+  /* background-color: #d2e0bf; */
+  /* background-color: #f1f2eb; */
+  background-color: #d8dad3;
+  /* background-color: #d1ccdc; */
+  /* background-color: #e8e5da; */
+}
+
+.big-grid-container {
+  /* max-width: 100%; */
+  padding: 0;
+  margin: auto;
+  /* background-color: bisque; */
+  display: grid;
+  gap: 1rem;
+  grid-template-areas:
+    "cv cv pr"
+    "pi pi ph"
+    "ed ed ed"
+    "we we we"
+    "lang lang lang"
+    "prog prog orga"
+    "soc soc fs";
+}
+
+.profile-photo {
+  /* background-color: chartreuse; */
+  grid-area: ph;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+img {
+  width: 10rem;
+  height: 13.5rem;
+}
+
+.cv-title {
+  grid-area: cv;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.personal-info {
+  /* background-color: aqua; */
+  grid-area: pi;
+}
+
+.education {
+  /* background-color: brown; */
+  grid-area: ed;
+}
+
+.working-experience {
+  /* background-color: chocolate; */
+  grid-area: we;
+}
+
+.languages {
+  /* background-color: darkcyan; */
+  grid-area: lang;
+}
+
+.orga-skills {
+  /* background-color: cornflowerblue; */
+  grid-area: orga;
+}
+
+.social-comp {
+  /* background-color: yellowgreen; */
+  grid-area: soc;
+}
+
+.rest {
+  /* background-color: springgreen; */
+  grid-area: fs;
+}
+
+.prog-skills {
+  /* background-color: hotpink; */
+  grid-area: prog;
+  display: flex;
+  justify-content: space-around;
+}
+
+.current-skills {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 3rem;
+  margin-bottom: 1rem;
+}
+
+.fa-html5,
+.fa-css3,
+.fa-js {
+  transform: scale(3);
+}
+
+.html-div,
+.css-div,
+.js-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.future-skills {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.fa-react,
+.fa-node-js {
+  transform: scale(3);
+}
+
+.react-div,
+.node-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.personal-info table,
+.education table,
+.working-experience table,
+.languages table {
+  width: 100%;
+  padding-top: 1rem;
+}
+
+.personal-info td:first-of-type,
+.education td:first-of-type,
+.working-experience td:first-of-type,
+.languages td:first-of-type {
+  width: 50%;
+}
+
+.orga-skills p,
+.social-comp p,
+.rest p {
+  padding: 1rem;
+}
+
+img,
+.personal-info,
+.education,
+.working-experience,
+.languages,
+.prog-skills,
+.orga-skills,
+.social-comp,
+.rest {
+  border: 1px solid black;
+  border-radius: 10px;
+  /* box-shadow: 5px 10px #888; */
+}
+
+.print {
+  grid-area: pr;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+[type="button"] {
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  border: 1px solid #000;
+}
+
+body {
+  visibility: hidden;
+}
+
+.printable {
+  visibility: visible;
+}

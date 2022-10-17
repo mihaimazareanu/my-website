@@ -36,7 +36,7 @@ h2 {
 }
 
 td {
-  padding-left: 1rem;
+  padding: 0 1rem;
 }
 
 tr:nth-child(odd) {
