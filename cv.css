@@ -54,9 +54,12 @@
   .cv-title {
     /* background-color: blueviolet; */
     /* border: 1px solid black; */
-    font-size: 2rem;
+    font-size: 1.5rem;
     height: calc(100% - 1rem);
     margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .profile-photo {
@@ -70,8 +73,8 @@
   }
 
   img {
-    width: 5rem;
-    height: 7rem;
+    width: 3.75rem;
+    height: 5rem;
   }
 }
 
